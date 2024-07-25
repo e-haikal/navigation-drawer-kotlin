@@ -16,8 +16,6 @@ Berikut adalah tampilan Navigation Drawer dalam aplikasi:
 -   Penanganan klik item menu untuk navigasi dalam aplikasi.
 -   Animasi tombol drawer (ikon hamburger).
 
-## Overview
-
 ## Prasyarat
 
 -   Android Studio terinstal.
