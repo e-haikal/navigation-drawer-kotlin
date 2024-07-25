@@ -18,7 +18,7 @@
         android:id="@+id/user_name"
         android:paddingTop="8dp"
         android:textSize="20sp"
-        android:text="Asman Haikal"
+        android:text="Hamba Allah"
         android:textColor="@color/black"
         android:textStyle="bold"/>
 
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:text="haikal@gmail.com"/>
+        android:text="siaptekno@gmail.com"/>
 
     <View
         android:layout_width="match_parent"
