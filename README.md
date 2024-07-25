@@ -21,9 +21,13 @@ Berikut adalah tampilan Navigation Drawer dalam aplikasi:
 -   Android Studio terinstal.
 -   Pengetahuan dasar tentang pengembangan Android dengan Kotlin.
 -   Dependensi Material Components Library ditambahkan di `build.gradle`:
+-   Dependensi untuk Cicle Image View ditambahkan di `build.gradle`:
+
 
 ```gradle
 implementation 'com.google.android.material:material:1.x.x' // Ganti x.x.x dengan versi terbaru
+implementation("de.hdodenhof:circleimageview:3.1.0") // Untuk cicrle image view
+
 ```
 
 ## Cara Menjalankan Proyek
