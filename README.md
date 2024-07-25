@@ -25,7 +25,7 @@ Berikut adalah tampilan Navigation Drawer dalam aplikasi:
 
 
 ```gradle
-implementation 'com.google.android.material:material:1.x.x' // Ganti x.x.x dengan versi terbaru
+implementation ("com.google.android.material:material:1.13.0-alpha04") // Bisa gunakan versi terbaru
 implementation("de.hdodenhof:circleimageview:3.1.0") // Untuk cicrle image view
 
 ```
