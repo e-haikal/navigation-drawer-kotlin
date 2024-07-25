@@ -13,7 +13,19 @@
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <!-- Tambahkan ImageButton di dalam Toolbar untuk tombol menu -->
+        <ImageButton
+            android:id="@+id/toolbar_menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_menu"
+            android:tint="@color/white"
+            android:layout_gravity="end"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+    </androidx.appcompat.widget.Toolbar>
 
     <!-- DrawerLayout di bawah Toolbar -->
     <androidx.drawerlayout.widget.DrawerLayout
@@ -35,7 +47,6 @@
                 android:textSize="26sp"
                 android:textColor="@color/black"
                 android:layout_gravity="center"/>
-
         </FrameLayout>
 
         <!-- Navigation View -->
@@ -43,10 +54,10 @@
             android:id="@+id/nav_view"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_gravity="start"
+            android:layout_gravity="end"
+            android:background="@drawable/rectangular_background"
             android:fitsSystemWindows="true"
             app:headerLayout="@layout/nav_header"
             app:menu="@menu/nav_menu"/>
-
     </androidx.drawerlayout.widget.DrawerLayout>
 </LinearLayout>

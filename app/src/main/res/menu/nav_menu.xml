@@ -8,46 +8,26 @@
         android:title="Home"/>
 
     <item
-        android:id="@+id/nav_message"
-        android:icon="@drawable/ic_home"
-        android:title="Message"/>
+        android:id="@+id/nav_news"
+        android:icon="@drawable/ic_news"
+        android:title="News"/>
 
     <item
-        android:id="@+id/nav_sync"
-        android:icon="@drawable/ic_home"
-        android:title="Sync"/>
-
-    <item
-        android:id="@+id/nav_trash"
-        android:icon="@drawable/ic_home"
-        android:title="Trash"/>
-
-    <item
-        android:id="@+id/nav_settings"
-        android:icon="@drawable/ic_home"
-        android:title="Settings"/>
-
-    <item
-        android:title="Profile">
-        <menu>
-            <item
-                android:id="@+id/nav_login"
-                android:icon="@drawable/ic_home"
-                android:title="Login"/>
-        </menu>
-    </item>
+        android:id="@+id/nav_tech"
+        android:icon="@drawable/ic_tech"
+        android:title="Technology"/>
 
     <item
         android:title="Communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_home"
+                android:icon="@drawable/ic_share"
                 android:title="Share"/>
 
             <item
-                android:id="@+id/rate_us"
-                android:icon="@drawable/ic_home"
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/ic_rate_us"
                 android:title="Rate Us"/>
         </menu>
     </item>
