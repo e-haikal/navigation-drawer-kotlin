@@ -31,7 +31,7 @@ implementation 'com.google.android.material:material:1.x.x' // Ganti x.x.x denga
 1.  **Clone repositori ini:**
 
 ```bash
-git clone [https://github.com/username-anda/navigation-drawer-kotlin.git](https://github.com/username-anda/navigation-drawer-kotlin.git)
+git clone https://github.com/e-haikal/navigation-drawer-kotlin.git
 ```
 
 2.  **Buka di Android Studio:**
